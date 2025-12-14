@@ -13,7 +13,7 @@ public class L2023111055_2_Test{
 
         // 测试目的：验证方法能否正确处理无重复字母的字符串
         // 测试用例：输入 "abc"，期望输出 "abc"
-        assertEquals("abcd", solution.removeDuplicateLetters("abc"));
+        assertEquals("abc", solution.removeDuplicateLetters("abc"));
 
         // 测试目的：验证方法能否正确处理有重复字母的字符串
         // 测试用例：输入 "bcabc"，期望输出 "abc"
